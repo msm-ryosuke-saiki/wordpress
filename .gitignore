@@ -1,3 +1,4 @@
 /wordpress/
 /docker/nginx/log/
+/wp-jp-mep-themes/
 .env

@@ -17,6 +17,7 @@ services:
      volumes:
        - ./wordpress:/var/www/html
        - ./docker/wordpress/php.ini:/usr/local/etc/php/php.ini
+       - ./wp-jp-mep-themes/help/meviy_manual:/var/www/html/wp-content/themes/meviy_manual
      restart: always
      environment:
       WORDPRESS_DB_HOST: ${WORDPRESS_DB_HOST}
